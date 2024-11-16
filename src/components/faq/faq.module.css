@@ -1,0 +1,80 @@
+.faqContainer {
+  margin-top: 40px;
+  margin: 0 auto;
+  padding: 2rem;
+  background: #fff;
+  border: 2px solid #f4b400;
+  border-radius: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.faqContainer .faqTitle {
+  text-align: center;
+  font-size: 1.8rem;
+  font-weight: 600;
+  color: #333;
+  margin-bottom: 2rem;
+}
+
+.faqContainer .faqItem {
+  border-bottom: 1px solid #e0e0e0;
+  padding: 1rem 0;
+}
+
+.faqContainer .faqItem:last-child {
+  border-bottom: none;
+}
+
+.faqContainer .faqItem .faqQuestion {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  cursor: pointer;
+}
+
+.faqContainer .faqItem .faqQuestion p {
+  font-size: 1.2rem;
+  color: #333;
+  margin: 0;
+}
+
+.faqContainer .faqItem .faqQuestion .iconToggle {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 24px;
+  height: 24px;
+  border-radius: 50%;
+  background: #f4b400;
+  font-size: 1.2rem;
+  color: #fff;
+  transition: transform 0.3s;
+}
+
+.faqContainer .faqItem .faqQuestion .iconToggle.expanded {
+  transform: rotate(180deg);
+}
+
+.faqContainer .faqItem .faqAnswer {
+  font-size: 1rem;
+  color: #666;
+  line-height: 1.6;
+  margin-top: 0.5rem;
+  display: none; /* Скрыто по умолчанию */
+  animation: fadeIn 0.3s ease forwards;
+}
+
+.faqContainer .faqItem .faqAnswer.show {
+  display: block; /* Показывается при клике */
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(-10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}

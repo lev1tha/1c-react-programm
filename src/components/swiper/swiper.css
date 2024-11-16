@@ -1,0 +1,47 @@
+.pagination-swiper {
+  max-width: 1440px;
+  width: 100%;
+  position: relative;
+  background-color: #FBBB00; /* Фон вокруг слайдера */
+  padding: 40px 70px;
+  border-radius: 80px;
+}
+
+.swiper-container {
+  position: relative;
+}
+
+.swiper-slide {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 24px;
+  color: #fff;
+  border-radius: 10px;
+}
+
+.slide-content {
+  text-align: start;
+}
+
+.swiper-pagination {
+  display: flex;
+  align-items: center;
+}
+
+.swiper-pagination-bullet {
+  width: 20px;
+  height: 20px;
+  background-color: transparent;
+  border: 2px solid black;
+  margin: 0 5px;
+  opacity: 0.6;
+  transition: background-color 0.3s ease;
+}
+
+.swiper-pagination-bullet.active,
+.swiper-pagination-bullet:hover {
+  background-color: black;
+  opacity: 1;
+}

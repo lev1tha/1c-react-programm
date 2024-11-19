@@ -25,3 +25,12 @@ input::placeholder {
   width: 100%;
   /* padding: 0 240px; */
 }
+
+:root {
+  /* Basic fonts for 1C project */
+  --global-font: "Poppins", sans-serif;
+
+  /* colors */
+  --basic-color: #fbbb00;
+  --second-color: #1c1c1c;
+}

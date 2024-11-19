@@ -15,6 +15,7 @@ export default function Header() {
           <nav className={headerstyle.navigation_menu}>
             <Link to="/">Project</Link>
             <Link to={"/aboutus"}>About Us</Link>
+            <Link to={"/service"}>Service</Link>
             <Link to={"/contact"}>Contact</Link>
             <Link to={"/license"}>License</Link>
           </nav>

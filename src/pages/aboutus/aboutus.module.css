@@ -1,0 +1,246 @@
+header {
+  margin-top: 28px;
+  display: flex;
+  align-items: center;
+
+  justify-content: space-between;
+}
+
+header .navigation-menu nav {
+  display: flex;
+  gap: 28px;
+}
+
+header .navigation-menu nav a {
+  font-family: var(--global-font);
+
+  text-decoration: none;
+  font-weight: 400;
+  font-size: 16px;
+  color: black;
+  line-height: 26.6px;
+}
+
+.widgets {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+}
+
+.widgets nav a {
+  text-decoration: none;
+  color: #1c1c1c99;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 21.6px;
+  text-transform: capitalize;
+}
+
+.widgets nav a:first-child {
+  color: var(--basic-color);
+}
+
+.widgets .catalog button {
+  border-radius: 32px;
+  background-color: var(--basic-color);
+  font-size: 16px;
+  font-weight: 400;
+  padding: 10px 24px;
+  border: 1px solid #1c1c1c99;
+  line-height: 16px;
+}
+
+.main_image {
+  margin-top: 40px;
+}
+
+.main_image img {
+  width: 100%;
+  height: 500px;
+  border-radius: 20px;
+  object-fit: cover;
+}
+
+.top_text_info .title {
+  margin-top: 60px;
+  margin-bottom: 60px;
+  text-align: center;
+}
+
+.top_text_info .title {
+  font-size: 64px;
+  font-weight: 700;
+}
+
+.image_collaction {
+  display: flex;
+  align-items: center;
+  gap: 40px;
+  width: 100%;
+}
+
+.image_collaction div {
+  margin: 40px 0;
+  display: flex;
+  gap: 40px;
+}
+
+.image_collaction > div img {
+  width: 700px;
+  height: 400px;
+  object-fit: cover;
+  border-radius: 80px;
+}
+
+.correct {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  margin-top: 20px;
+}
+
+.application {
+  width: 100%;
+  margin-top: 20px;
+  background-color: #fbbb00;
+  border-radius: 80px;
+  border: 2px solid #b48700;
+  padding: 100px;
+
+  display: flex;
+  align-items: center;
+  gap: 40px;
+}
+
+.left_site_application {
+  width: 700px;
+}
+
+.left_site_application .title h1 {
+  font-size: 32px;
+  line-height: 35.2px;
+  font-weight: 700;
+}
+
+.left_site_application .suptitle {
+  margin-top: 17px;
+}
+
+.left_site_application .suptitle p {
+  color: #1c1c1ce5;
+  font-size: 20px;
+  line-height: 27px;
+  font-weight: 300;
+}
+
+.correct {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  margin-top: 20px;
+}
+
+.correct p {
+  font-size: 16px;
+  line-height: 21.6px;
+  font-weight: 300;
+}
+
+.right_site_application {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.right_site_application .top p {
+  font-size: 16px;
+  line-height: 16px;
+  font-weight: 400;
+}
+
+.right_site_application .top input {
+  width: 500px;
+  margin-top: 8px;
+  background-color: #1c1c1c10;
+  padding: 10px 16px;
+  border: 1px solid #1c1c1c66;
+  border-radius: 32px;
+}
+
+.right_site_application .top input::placeholder {
+  font-size: 16px;
+  line-height: 16px;
+  font-weight: 400;
+  text-transform: capitalize;
+  color: #1c1c1c99;
+}
+
+.right_site_application .middle {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  width: 100%;
+}
+
+.right_site_application .middle input {
+  width: 230px;
+  margin-top: 8px;
+  padding: 10px 16px;
+  border: 1px solid #1c1c1c66;
+  border-radius: 32px;
+  background-color: #1c1c1c10;
+}
+
+.right_site_application .middle input::placeholder {
+  font-size: 16px;
+  line-height: 16px;
+  font-weight: 400;
+  text-transform: capitalize;
+  color: #1c1c1c99;
+}
+
+.button_request {
+  width: 230px;
+  padding: 16px 24px;
+  background-color: #1c1c1c;
+  color: #fbbb00;
+  font-family: var(--global-font);
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 20px;
+  border-radius: 32px;
+  align-self: self-end;
+  border: none;
+  cursor: pointer;
+
+  display: flex;
+  gap: 15px;
+  align-items: center;
+}
+
+@media (max-width: 1200px) {
+  .image_collaction div {
+    max-width: 700px;
+    width: 100%;
+  }
+
+  .image_collaction div img {
+    width: 100%;
+  }
+}
+
+@media (max-width: 860px) {
+  .image_collaction {
+    flex-wrap: wrap;
+  }
+
+  .image_collaction div {
+    max-width: 700px;
+    width: 100%;
+  }
+
+  .image_collaction div img {
+    width: 100%;
+  }
+}

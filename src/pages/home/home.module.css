@@ -263,7 +263,7 @@
   width: 230px;
   padding: 16px 24px;
   background-color: #1c1c1c;
-  color: var(--basic-color);
+  color: #fbbb00;
   font-family: var(--global-font);
   font-size: 20px;
   font-weight: 500;
@@ -272,8 +272,54 @@
   align-self: self-end;
   border: none;
   cursor: pointer;
+
+  display: flex;
+  gap: 15px;
+  align-items: center;
 }
 
-/* FAQ */
+/* Contact */
 
+.contact {
+  margin-top: 20px;
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
 
+.contact_card {
+  padding: 52.5px 80px;
+  border: 1px solid #fbbb00;
+  border-radius: 80px;
+}
+
+.contact_card h1 {
+  font-size: 32px;
+  line-height: 35.2px;
+  font-weight: 700;
+  margin-bottom: 12px;
+}
+
+.contact_card p {
+  width: 540px;
+  font-size: 20px;
+  line-height: 27px;
+  color: #1c1c1ce5;
+}
+
+.contact_card .contact_info {
+  margin-top: 36px;
+}
+
+.contact_card .date {
+  display: flex;
+  gap: 8px;
+  align-items: center;
+}
+
+.map_card > iframe {
+  border-radius: 80px;
+  height: 408px;
+  width: 680px;
+  max-width: 100%;
+}

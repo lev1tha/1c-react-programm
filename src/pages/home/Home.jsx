@@ -106,6 +106,7 @@ export default function Home() {
         </section>
       </section>
 
+      {/* PartnerShip */}
       <section className={homestyle.partnership}>
         <div className={homestyle.title_partnership}>
           <h1>Partnership</h1>
@@ -126,6 +127,7 @@ export default function Home() {
         </div>
       </section>
 
+      {/* APPLICATION */}
       <section className={homestyle.application}>
         <div className={homestyle.left_site_application}>
           <div className={homestyle.title}>
@@ -169,8 +171,55 @@ export default function Home() {
         </div>
       </section>
 
+      {/* FAQ */}
       <section className={homestyle.faqContainer}>
         <FAQ />
+      </section>
+
+      {/* Contact */}
+      <section className={homestyle.contact}>
+        <div className={homestyle.contact_card}>
+          <div className={homestyle.contact_title}>
+            <h1>Contacts</h1>
+          </div>
+          <div className={homestyle.contact_suptitle}>
+            <p>
+              Monero is the leading cryptocurrency with a focus on private and
+              censorship-resistant transactions. The Monero wallet software
+              allows you to easily manage your money.
+            </p>
+          </div>
+
+          <div className={homestyle.contact_info}>
+            <div className={homestyle.date}>
+              <img src="../assets/mail.svg" alt="mail" />
+              <p>00000000000000@Gmail.com</p>
+            </div>
+            <div className={homestyle.date}>
+              <img src="../assets/mail.svg" alt="mail" />
+              <p>00000000000000@Gmail.com</p>
+            </div>
+            <div className={homestyle.date}>
+              <img src="../assets/phone.svg" alt="" />
+              <p>+000 000 000 000</p>
+            </div>
+            <div className={homestyle.date}>
+              <img src="../assets/phone.svg" alt="" />
+              <p>+000 000 000 000</p>
+            </div>
+          </div>
+        </div>
+        <div className={homestyle.map_card}>
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d93587.43158336771!2d74.61400970966798!3d42.86002578269436!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sru!2skg!4v1728306712382!5m2!1sru!2skg"
+            width={600}
+            height={450}
+            style={{ border: "0" }}
+            allowFullScreen=""
+            loading="lazy"
+            referrerPolicy="no-referrer-when-downgrade"
+          />
+        </div>
       </section>
     </>
   );

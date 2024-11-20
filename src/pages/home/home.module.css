@@ -323,3 +323,282 @@
   width: 680px;
   max-width: 100%;
 }
+
+@media (max-width: 1200px) {
+  .container_inner {
+    padding: 0 20px;
+  }
+
+  main {
+    padding: 40px 60px;
+    height: auto;
+  }
+
+  header .navigation-menu nav {
+    gap: 12px;
+  }
+
+  main .left_main_site .title h1 {
+    font-size: 48px;
+    line-height: 56px;
+    width: 100%;
+  }
+
+  main .button_main {
+    max-width: 180px;
+  }
+
+  .cards {
+    flex-direction: column;
+  }
+
+  .faq-container {
+    margin: 20px auto 0;
+    padding: 50px;
+    background-color: #fff;
+    border-radius: 80px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    border: 2px solid #ffd45d;
+    text-align: center;
+  }
+
+  .card {
+    max-width: 100%;
+    margin-bottom: 20px;
+  }
+
+  .right_site_application .top input,
+  .right_site_application .middle input {
+    width: 100%;
+  }
+
+  .contact {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  footer {
+    flex-direction: column;
+    padding: 60px;
+    gap: 50px;
+  }
+
+  footer .top_footer,
+  footer .under_navigate {
+    flex-direction: column;
+    gap: 20px;
+  }
+}
+
+@media (max-width: 768px) {
+  header .navigation-menu nav {
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .widgets {
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .widgets .catalog button {
+    display: none;
+  }
+
+  main {
+    padding: 30px;
+    height: auto;
+  }
+
+  main .left_main_site .title h1 {
+    font-size: 36px;
+    line-height: 42px;
+  }
+
+  .card_company {
+    flex-wrap: wrap;
+  }
+
+  .card_container {
+    padding: 20px;
+  }
+
+  .partnership_cards {
+    gap: 40px;
+    flex-wrap: wrap;
+  }
+
+  .left_site_application {
+    max-width: 400px;
+    width: 100%;
+  }
+
+  .left_site_application .title h1 {
+    font-size: 18px;
+    line-height: 23.2px;
+    font-weight: 700;
+  }
+
+  .left_site_application .suptitle p {
+    color: #1c1c1ce5;
+    font-size: 13px;
+    line-height: 16px;
+    font-weight: 300;
+  }
+
+  .correct p {
+    font-size: 12px;
+    line-height: 15.6px;
+    font-weight: 300;
+  }
+
+  .partnership_cards {
+    flex-direction: column;
+    gap: 55px;
+    padding: 20px;
+  }
+
+  .contact_card p {
+    width: 434px;
+    font-size: 20px;
+    line-height: 27px;
+    color: #1c1c1ce5;
+  }
+
+  .button_request {
+    padding: 12px 16px;
+    font-size: 14px;
+    line-height: 14px;
+    border-radius: 32px;
+  }
+
+  .application {
+    flex-direction: column;
+    padding: 40px;
+  }
+
+  .contact_card {
+    padding: 52.5px 80px;
+    border: 1px solid var(--basic-color);
+    border-radius: 40px;
+  }
+
+  .faq-container {
+    padding: 20px;
+    border-radius: 40px;
+  }
+
+  .faq-question p {
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 20.1px;
+  }
+
+  .faq-answer {
+    display: none;
+    padding-top: 8px;
+    font-size: 12px;
+    color: #555;
+    text-align: left;
+  }
+
+  .contact_card h1 {
+    font-size: 30px;
+    line-height: 31.2px;
+    font-weight: 700;
+    margin-bottom: 12px;
+  }
+
+  .contact_card p {
+    width: 434px;
+    font-size: 14px;
+    line-height: 19px;
+    color: #1c1c1ce5;
+  }
+
+  footer {
+    flex-direction: column;
+    padding: 40px;
+    /* height: fit-content; */
+    gap: 30px;
+  }
+
+  footer .top_footer,
+  footer .under_navigate,
+  footer .down_navigate {
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  footer .down_navigate {
+    flex-direction: column;
+    gap: 20px;
+  }
+}
+
+/* Для устройств с шириной экрана до 480px */
+@media (max-width: 480px) {
+  header {
+    margin-top: 20px;
+  }
+
+  main {
+    padding: 20px;
+  }
+  card_container main .left_main_site .title h1 {
+    font-size: 28px;
+    line-height: 32px;
+  }
+
+  .card {
+    max-width: 100%;
+  }
+
+  .button_main {
+    max-width: 100%;
+    text-align: center;
+  }
+
+  .contact_card {
+    padding: 20px;
+  }
+
+  .contact_card p {
+    width: 100%;
+  }
+
+  .faq-container {
+    padding: 20px;
+    border-radius: 40px;
+  }
+
+  .faq-question p {
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 20.1px;
+  }
+
+  .faq-answer {
+    display: none;
+    padding-top: 8px;
+    font-size: 12px;
+    color: #555;
+    text-align: left;
+  }
+
+  .map_card > iframe {
+    border-radius: 40px;
+  }
+
+  footer {
+    padding: 20px;
+    gap: 20px;
+  }
+
+  footer .top_footer,
+  footer .under_navigate,
+  footer .down_navigate {
+    flex-direction: column;
+    gap: 20px;
+  }
+}

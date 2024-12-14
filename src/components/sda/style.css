@@ -69,3 +69,155 @@
   line-height: 16px;
 }
 
+/* media */
+
+/* Базовые стили описаны выше */
+
+/* Для экрана меньше 1200px (ноутбуки) */
+@media (max-width: 1200px) {
+  .swiper-slide {
+    flex-direction: column;
+    gap: 40px;
+    padding: 20px;
+  }
+
+  .left_main_site .title h1 {
+    font-size: 48px;
+    line-height: 56px;
+    width: 100%;
+  }
+
+  .left_main_site .suptitle p {
+    max-width: 480px;
+    font-size: 18px;
+    line-height: 24px;
+  }
+
+  .button_main {
+    max-width: 180px;
+    padding: 14px 20px;
+    gap: 16px;
+    border-radius: 24px;
+  }
+
+  .swiper-pagination-bullet {
+    width: 10px;
+    height: 10px;
+    border: 2px solid #000;
+  }
+
+  .swiper-pagination-bullet-active {
+    width: 30px;
+    height: 10px;
+    border-radius: 20px;
+  }
+
+  .right_main_site img {
+    max-width: 400px;
+    width: 80%;
+  }
+}
+
+/* Для экрана меньше 768px (планшеты) */
+@media (max-width: 768px) {
+  .swiper-slide {
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+    padding: 15px;
+  }
+
+  .left_main_site .title h1 {
+    font-size: 36px;
+    line-height: 44px;
+    text-align: center;
+  }
+
+  .left_main_site .suptitle p {
+    max-width: 100%;
+    font-size: 16px;
+    line-height: 22px;
+    text-align: center;
+  }
+
+  .button_main {
+    max-width: 150px;
+    padding: 12px 18px;
+    gap: 12px;
+    border-radius: 20px;
+  }
+
+  .swiper-pagination-bullet {
+    width: 8px;
+    height: 8px;
+    border: 2px solid #000;
+  }
+
+  .swiper-pagination-bullet-active {
+    width: 24px;
+    height: 8px;
+    border-radius: 16px;
+  }
+
+  .right_main_site img {
+    max-width: 300px;
+    width: 90%;
+  }
+}
+
+/* Для экрана меньше 480px (мобильные устройства) */
+@media (max-width: 480px) {
+  .pagination-swiper {
+    max-width: 1440px;
+    width: 100%;
+    position: relative;
+    background-color: #fbbb00;
+    padding: 19px 2px;
+    border-radius: 20px;
+  }
+
+  .swiper-slide {
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    padding: 10px;
+  }
+
+  
+
+  .left_main_site .title h1 {
+    font-size: 24px;
+    line-height: 32px;
+    text-align: center;
+  }
+
+  .left_main_site .suptitle p {
+    font-size: 14px;
+    line-height: 20px;
+    text-align: center;
+  }
+
+  .button_main {
+    max-width: 120px;
+    padding: 10px 16px;
+    gap: 8px;
+    border-radius: 20px;
+  }
+
+  .swiper-pagination-bullet {
+    width: 6px;
+    height: 6px;
+    border: 1px solid #000;
+  }
+
+  .swiper-pagination-bullet-active {
+    width: 20px;
+    height: 6px;
+    border-radius: 10px;
+  }
+
+  .right_main_site img {
+    max-width: 240px;
+    width: 80%;
+  }
+}

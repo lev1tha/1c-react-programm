@@ -77,3 +77,89 @@
     transform: translateY(0);
   }
 }
+
+/* Базовые стили описаны выше */
+
+/* Для экранов шириной до 1200px (ноутбуки) */
+@media (max-width: 1200px) {
+  .faqContainer {
+    padding: 80px;
+    border-radius: 60px;
+  }
+
+  .faqContainer .faqTitle {
+    font-size: 1.6rem;
+  }
+
+  .faqContainer .faqItem .faqQuestion p {
+    font-size: 1.1rem;
+  }
+
+  .faqContainer .faqItem .faqAnswer {
+    font-size: 0.95rem;
+  }
+
+  .faqContainer .faqItem .faqQuestion .iconToggle {
+    width: 20px;
+    height: 20px;
+    font-size: 1rem;
+  }
+}
+
+/* Для экранов шириной до 768px (планшеты) */
+@media (max-width: 768px) {
+  .faqContainer {
+    padding: 60px;
+    border-radius: 40px;
+  }
+
+  .faqContainer .faqTitle {
+    font-size: 1.4rem;
+  }
+
+  .faqContainer .faqItem .faqQuestion p {
+    font-size: 1rem;
+  }
+
+  .faqContainer .faqItem .faqAnswer {
+    font-size: 0.9rem;
+  }
+
+  .faqContainer .faqItem .faqQuestion .iconToggle {
+    width: 18px;
+    height: 18px;
+    font-size: 0.9rem;
+  }
+}
+
+/* Для экранов шириной до 480px (мобильные устройства) */
+@media (max-width: 480px) {
+  .faqContainer {
+    margin: 20px auto;
+    padding: 40px;
+    border-radius: 20px;
+  }
+
+  .faqContainer .faqTitle {
+    font-size: 1.2rem;
+  }
+
+  .faqContainer .faqItem {
+    padding: 0.8rem 0;
+  }
+
+  .faqContainer .faqItem .faqQuestion p {
+    font-size: 0.9rem;
+  }
+
+  .faqContainer .faqItem .faqAnswer {
+    font-size: 0.8rem;
+    line-height: 1.4;
+  }
+
+  .faqContainer .faqItem .faqQuestion .iconToggle {
+    width: 16px;
+    height: 16px;
+    font-size: 0.8rem;
+  }
+}

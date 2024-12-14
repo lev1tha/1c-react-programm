@@ -483,18 +483,18 @@
     border-radius: 40px;
   }
 
-  .faq-container {
+  .faq_container {
     padding: 20px;
     border-radius: 40px;
   }
 
-  .faq-question p {
+  .faq_question p {
     font-size: 14px;
     font-weight: 300;
     line-height: 20.1px;
   }
 
-  .faq-answer {
+  .faq_answer {
     display: none;
     padding-top: 8px;
     font-size: 12px;
@@ -545,13 +545,26 @@
   main {
     padding: 20px;
   }
-  card_container main .left_main_site .title h1 {
+
+  .card_container main .left_main_site .title h1 {
     font-size: 28px;
     line-height: 32px;
   }
 
+  .application {
+    border-radius: 20px;
+    border: 2px solid #b48700;
+    padding: 20px;
+
+    display: flex;
+    align-items: center;
+    gap: 40px;
+  }
+
   .card {
     max-width: 100%;
+    border-radius: 20px;
+    padding: 0 0 20px 0;
   }
 
   .button_main {
@@ -567,18 +580,22 @@
     width: 100%;
   }
 
-  .faq-container {
+  .faq_container {
+    margin: 40px auto;
     padding: 20px;
-    border-radius: 40px;
+    background: #fff;
+    border: 2px solid #f4b400;
+    border-radius: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   }
 
-  .faq-question p {
+  .faq_question p {
     font-size: 14px;
     font-weight: 300;
     line-height: 20.1px;
   }
 
-  .faq-answer {
+  .faq_answer {
     display: none;
     padding-top: 8px;
     font-size: 12px;
